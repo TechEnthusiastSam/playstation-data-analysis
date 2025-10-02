@@ -102,8 +102,6 @@ if __name__ == '__main__':
     plt.show()
 ```
 
-## Repository Structure
-
 ## Results
 
 ### Total Global Sales per Genre (PlayStation)
