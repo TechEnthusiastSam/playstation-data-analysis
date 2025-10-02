@@ -6,8 +6,6 @@ This repository demonstrates exploratory and descriptive analysis on a dataset o
 
 We use the **Video\_Games.csv** dataset from the open‐source GitHub project “Video‑Game‑Sales‑Dataset”.  The CSV contains one row per video game, with columns for the game name, platform, year of release, genre, publisher, sales by region (North America, Europe, Japan and Other), global sales, critic score, critic count, user score, user count, developer and ESRB rating【161448525291208†L246-L253】.  The dataset spans multiple platforms and is large enough to support meaningful PlayStation‑specific queries【347032683950304†L55-L63】.
 
-**Note:** The raw dataset is not included in this repository for licensing and size reasons.  To run the analysis you should download `Video_Games.csv` from the upstream repository and place it in the `data/` folder.  Alternatively, modify the code to load the file directly from the raw GitHub URL.
-
 ## Data Cleaning
 
 Before analysing the data you need to clean it:
