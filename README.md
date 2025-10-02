@@ -66,7 +66,7 @@ These queries use aggregations, filtering and grouping to surface insights about
 
 ## Python Analysis (src/analysis.py)
 
-The provided `src/analysis.py` script demonstrates how to load the data with pandas, clean it and perform several analyses.  A brief excerpt:
+The provided `src/analysis.py` script demonstrates how to load the data with pandas, clean it, and perform several analyses.  A brief excerpt:
 
 ```python
 import pandas as pd
@@ -118,4 +118,4 @@ playstation-project/
 └── README.md                  # project overview and instructions
 ```
 
-This structure separates raw data, source code and results.  You can also include a Jupyter notebook (`notebooks/analysis.ipynb`) to present the analysis interactively, and add GitHub Actions or pre‑commit hooks to lint code.  Documenting your process in this way demonstrates the ability to plan, clean data and derive insights — all of which are valuable for entry‑level data analyst roles.
+This structure separates raw data, source code and results.  You can also include a Jupyter notebook (`notebooks/analysis.ipynb`) to present the analysis interactively, and add GitHub Actions or pre‑commit hooks to lint code.  Documenting your process in this way demonstrates the ability to plan, clean data and derive insights.
