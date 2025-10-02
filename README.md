@@ -19,7 +19,6 @@ Before analysing the data you need to clean it:
 
 ## Example SQL Queries
 
-You can import the CSV into a SQLite database and run SQL queries.  Here are a few examples:
 
 ```sql
 -- Top 10 PlayStation games by global sales
@@ -62,7 +61,7 @@ ORDER BY Total_Sales DESC
 LIMIT 10;
 ```
 
-These queries use aggregations, filtering and grouping to surface insights about sales performance, trends and publisher strength on PlayStation platforms.  You can extend them with window functions or subqueries for deeper analysis.
+I used aggregations, filtering and grouping to surface insights about sales performance, trends and publisher strength on PlayStation platforms.
 
 ## Python Analysis (src/analysis.py)
 
@@ -102,8 +101,6 @@ if __name__ == '__main__':
     plt.savefig('results/genre_sales.png')
     plt.show()
 ```
-
-Run the script from the repository root after downloading the dataset; it will output a top‑10 table and generate a chart in the `results/` directory.
 
 ## Repository Structure
 
