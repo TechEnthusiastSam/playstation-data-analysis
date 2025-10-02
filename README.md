@@ -117,6 +117,5 @@ Run the script from the repository root after downloading the dataset; it will o
 
 Raw table: [top10_playstation.csv](results/top10_playstation.csv)
 
-This structure separates raw data, source code and results. You can also include a Jupyter notebook (`notebooks/analysis.ipynb`) to present the analysis interactively, and add GitHub Actions or pre-commit hooks to lint code. Documenting your process in this way demonstrates the ability to plan, clean data and derive insights.
 
 
